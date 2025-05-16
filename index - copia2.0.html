@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 
+  <a id="pocisioninicial"> </a>
  <a class="clasenav"  href="https://www.digemid.minsa.gob.pe/webDigemid/">inicio</a>
  <a class="clasenav"  href="#sobredigemid">sobre digemid</a>
- 
+ <body  htm style="background-color: black;"></body>
  <a class="clasenav"  href="https://www.plazavea.com.pe/tecnologia/telefonia/celulares-y-smartphones?srsltid=AfmBOooME4MkhS1kfh_UX__N-k9XnptjqQ96qVvHLHvMlsVWVNIpnPFt">productos</a> 
-  <a class="clasenav"  href="">productos</a>
-  <h2>tecnologia</h2>     <img class="clase_absoluterelative"
+  
+  <h2>zapatillas</h2>     <img class="clase_absoluterelative"
          style="border:9px dotted ; color:rgb(253, 55, 29)"
-    src="C:\Users\LAB03-NORTE\Documents\GitHub\.github.io\NOSE\imagen\tecnologia.jpg"
+    src="https://mikaela.vteximg.com.br/arquivos/ids/192627-1000-1000/1114282-1.jpg?v=638461348292200000"
      
                  alt="IMAGEN NO DISPONIBLE"
           width="400"       height="341"      >
         
       </div>
-   <a class="clasenav"  href="https://www.plazavea.com.pe/tecnologia/telefonia/celulares-y-smartphones">productos</a>
-   <a class="clasenav"  href="https://www.plazavea.com.pe/tecnologia/telefonia/cargadores-y-cables">productos</a>
-  <a class="clasenav"  href="https://www.plazavea.com.pe/tecnologia/telefonia/accesorios-para-celulares">productos</a>
-  <a class="clasenav"  href="https://www.plazavea.com.pe/tecnologia/telefonia/smartwatch">productos</a>
-  <a class="clasenav"  href="https://www.plazavea.com.pe/tecnologia/telefonia/cases-y-micas">productos</a>
-  <h2>comida de perro</h2>      <img class="clase_absoluterelative"
+   <a class="clasenav"  href="https://www.adidas.pe/zapatillas-de-running-duramo-sl-2/IH8218.html?pr=home_rr&slot=2&rec=ds">productos</a>
+   <a class="clasenav"  href="https://www.adidas.pe/zapatillas-de-senderismo-terrex-ax4/IH1131.html?pr=home_rr&slot=3&rec=ds">productos</a>
+  <a class="clasenav"  href="https://www.adidas.pe/zapatillas-samba-og/B75806.html?pr=home_rr&slot=4&rec=ds">productos</a>
+  <a class="clasenav"  href="https://www.adidas.pe/zapatillas-superstar-82/JH5669.html?pr=taxonomy_rr&slot=1&rec=mt">productos</a>
+  <a class="clasenav"  href="https://www.adidas.pe/zapatillas-superstar/JI0079.html?pr=taxonomy_rr&slot=2&rec=mt">productos</a>
+        <img class="clase_absoluterelative"
          style="border:9px dotted ; color:rgb(253, 55, 29)"
-    src="C:\Users\LAB03-NORTE\Documents\GitHub\NOSE.git hub.io\imagen\comida.WEBP"
+    src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/d912edde35cc48698cdfe442cc79794f_9366/Zapatillas_Break_Start_Mid_Azul_IH7970_02_standard_hover.jpg"
+    
      
                  alt="IMAGEN NO DISPONIBLE"
           width="400"       height="341"      >
-  <a class="clasenav"  href="https://www.plazavea.com.pe/huesos-de-ganado-vacuno-bells-bolsa-x-10und/p">productos</a>
-   <a class="clasenav"  href="https://www.plazavea.com.pe/mascotas/comida-para-perros/galletas-y-snacks-para-perros">productos</a>
-    <a class="clasenav"  href="https://www.plazavea.com.pe/galletas-crocantes-y-horneadas-ricocrack-cordero-para-adultos-caja-500g/p">productos</a>
-     <a class="clasenav"  href="https://www.plazavea.com.pe/carnaza-natural-dentitoy-pote-1kg/p">productos</a>
+  <a class="clasenav"  href="https://www.adidas.pe/zapatillas-superstar/IH8659.html?pr=taxonomy_rr&slot=3&rec=mt">productos</a>
+   <a class="clasenav"  href="https://www.adidas.pe/zapatillas-bubblecomfy/JR5039.html?pr=taxonomy_rr&slot=6&rec=mt">productos</a>
+    <a class="clasenav"  href="https://www.adidas.pe/chimpunes-f50-elite-2010-cuero-terreno-firme/IH0946.html?pr=taxonomy_rr&slot=7&rec=mt">productos</a>
+     
       
-      <!--<a class="clasenav"  href="">productos</a>--<
+      <!--<a class="clasenav"  href="">productos</a>-->
  
- 
- 
- 
- 
- 
- 
- <a class="clasenav"  href="https://www.digemid.minsa.gob.pe/webDigemid/preguntas-frecuentes/">contacto</a>
 
+ 
 
+<label for="textInput">Ingrese una palabra:</label>
+  <input type="text" id="textInput">
+  <div id="numberInputs"></div>
 
+  <script>
+    document.getElementById('textInput').addEventListener('input', function () {
+      const container = document.getElementById('numberInputs');
+      container.innerHTML = ''; // Limpiar inputs anteriores
+      const cantidad = this.value.length;
 
+      for (let i = 0; i < cantidad; i++) {const input =
+         document.createElement('input');
+        input.type = 'number';
+        
+        container.appendChild(input);
+      }
+    });
+  </script>
 
 
 
